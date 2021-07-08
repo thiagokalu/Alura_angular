@@ -8,14 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bytebank';
-transferencias: any[]= [];
 
-
-constructor (private service: TransferenciaService){
-
-}
-
-  transferir($event: any) {
-    console.log($event);
-  }
+constructor (private service: TransferenciaService){}
 }
